@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_huge_fourth">128dp</dimen>
+    <dimen name="spacing_huge_double">76.8dp</dimen>
+    <dimen name="spacing_big_very">57.6dp</dimen>
+    <dimen name="spacing_huge_very">44.8dp</dimen>
+    <dimen name="spacing_huge_very_minus">-44.8dp</dimen>
+    <dimen name="spacing_huge">38.4dp</dimen>
+    <dimen name="spacing_huge_minus">-38.4dp</dimen>
+    <dimen name="spacing_normal_double">25.6dp</dimen>
+    <dimen name="spacing_normal_double_minus">-25.6dp</dimen>
+    <dimen name="spacing_big">19.2dp</dimen>
+    <dimen name="spacing_normal_minus">-12.8dp</dimen>
+    <dimen name="spacing_normal">12.8dp</dimen>
+    <dimen name="spacing_small">12dp</dimen>
+    <dimen name="spacing_half">6.4dp</dimen>
+    <dimen name="spacing_half_minus">-6.4dp</dimen>
+    <dimen name="spacing_half_little">4.8dp</dimen>
+    <dimen name="spacing_little">3.2dp</dimen>
+    <dimen name="spacing_very_little">2.4dp</dimen>
+
+    <dimen name="font_extra_huge">41.6sp</dimen>
+    <dimen name="font_huge">25.6sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_great">14.4sp</dimen>
+    <dimen name="font_big">12.8sp</dimen>
+    <dimen name="font_normal">11.2sp</dimen>
+    <dimen name="font_small">9.6sp</dimen>
+    <dimen name="font_little">8sp</dimen>
+
+    <dimen name="icon_size">25.6dp</dimen>
+    <dimen name="icon_inner_padding">3.2dp</dimen>
+
+    <dimen name="tabbar_height">41.6dp</dimen>
+    <dimen name="tabbar_width">163.2dp</dimen>
+    <dimen name="tabbar_radius">20.8dp</dimen>
+    <dimen name="tabbar_icon_size">32dp</dimen>
+    <dimen name="tabbar_icon_padding">6.4dp</dimen>
+
+    <dimen name="onboarding_coin_width">144dp</dimen>
+    <dimen name="onboarding_coin_height">192dp</dimen>
+    <dimen name="onboarding_chart_blue_width">176dp</dimen>
+    <dimen name="onboarding_chart_blue_height">176dp</dimen>
+    <dimen name="onboarding_chart_blue_margin_end">-32dp</dimen>
+    <dimen name="onboarding_chart_blue_margin_top">-128dp</dimen>
+    <dimen name="onboarding_chart_blue_second_margin_top">-144dp</dimen>
+    <dimen name="onboarding_notification_blue_width">56dp</dimen>
+    <dimen name="onboarding_notification_blue_height">120dp</dimen>
+    <dimen name="onboarding_notification_red_width">56dp</dimen>
+    <dimen name="onboarding_notification_red_height">56dp</dimen>
+    <dimen name="onboarding_notification_black_width">56dp</dimen>
+    <dimen name="onboarding_notification_black_height">80dp</dimen>
+
+    <dimen name="qr_scanner_width">256dp</dimen>
+    <dimen name="qr_scanner_height">256dp</dimen>
+</resources>

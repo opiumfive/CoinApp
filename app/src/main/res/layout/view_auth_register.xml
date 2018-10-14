@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextView.Regular.Black.18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:gravity="center_horizontal"
+        android:text="@string/new_user" />
+
+    <EditText
+        android:id="@+id/registerName"
+        style="@style/TextView.Regular.Black.16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:hint="@string/name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        style="@style/TextView.Regular.Black.16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:hint="@string/email"
+        android:inputType="text|textEmailAddress" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="false"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/registerPassword"
+            style="@style/TextView.Regular.Black.16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="text|textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <com.opiumfive.coinapp.ui.base.view.MainButton
+        android:id="@+id/registerButton"
+        style="@style/AccentMainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:enabled="false"
+        android:text="@string/enter" />
+
+</LinearLayout>

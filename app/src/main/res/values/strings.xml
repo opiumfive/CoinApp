@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CoinApp</string>
+    <string name="facebook_app_id">xxx</string>
+    <string name="fb_login_protocol_scheme">xxx</string>
+
+    <string name="onboarding_wellcome_title">Welcome to Wallet Tracker</string>
+    <string name="onboarding_wellcome_message">All your wallets, transactions and instant alerts in one convenient application.</string>
+    <string name="onboarding_notification_title">Notifications</string>
+    <string name="onboarding_notification_message">Be aware of all transactions in your wallet in real time.</string>
+    <string name="onboarding_safely_title">It’s safety</string>
+    <string name="onboarding_safely_message">It is totally safe. We do not ask you to provide any private keys or password to your wallets. We use public blockchain explorers.</string>
+    <string name="onboarding_add_wallet_title">Add your first wallet</string>
+    <string name="onboarding_add_wallet_message">Now add your first wallet. Just copy paste or use a QR code to add a wallet to the watchlist.</string>
+
+    <string name="supports_only">Supports only</string>
+    <string name="eth">Etherium</string>
+    <string name="btc">Bitcoin</string>
+    <string name="eth_short">Eth</string>
+    <string name="btc_short">Btc</string>
+    <string name="eth_and">Etherium and</string>
+    <string name="total_portfolio_value">Total Portfolio Value</string>
+    <string name="balance">Balance</string>
+    <string name="tokens">Tokens</string>
+
+    <string name="next">Next</string>
+    <string name="add_wallet">Add wallet</string>
+
+    <string name="error_google_services_unavailable">Google services unavailable on this device!</string>
+    <string name="error_no_internet">There is no internet connection</string>
+    <string name="error_no_internet_action">Can\'t do it without connection</string>
+    <string name="error_empty_fields">Empty fields</string>
+    <string name="error_login_email">Login must be email</string>
+
+    <string name="powered_by">powered by</string>
+    <string name="authorization">Authorization</string>
+    <string name="login_info">Log in or create an account to watch for all your wallets and transactions in one app</string>
+    <string name="icos">Icos</string>
+    <string name="id">id</string>
+    <string name="or">or</string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="enter">Enter</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="new_user">New user</string>
+    <string name="name">Name</string>
+    <string name="i_am_new_user">I\'m a new user</string>
+    <string name="forgot_my_password">Forgot my password</string>
+
+    <string name="address">Address</string>
+    <string name="name_optional">Name (optional)</string>
+
+    <string name="ask_camera_permission">We require camera usage to allow you to scan QR codes</string>
+    <string name="scan_qr_code">Scan QR code using\nyour camera</string>
+    <string name="flash_on">Flash on</string>
+    <string name="flash_off">Flash off</string>
+    <string name="camera_permission_denied">If you want to scan the QR code, turn on the in application settings</string>
+
+    <string name="have_wallet_type_in_clipboard">It looks like you have valid %1$s address in your pasteboard: %2$s Do you want to use it?</string>
+    
+    <string name="error_wallet_type">Current address does not look like anything we\'ve met. Are you sure you want to proceed? If you are, please, specify which crypto currency address it is</string>
+    <string name="confirmation">Confirmation</string>
+
+</resources>

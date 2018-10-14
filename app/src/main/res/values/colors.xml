@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/white</color>
+    <color name="colorAccent">@color/clearBlue</color>
+
+    <color name="default_shadow_color">#88757575</color>
+    <color name="default_fill_color">#ffffff</color>
+    <color name="shadow_color">#23000000</color>
+
+    <color name="clearBlue">#1f69fe</color>
+    <color name="clearBlueTwo">#1a8cff</color>
+    <color name="blue">#003cb6</color>
+    <color name="lightBlue">#4b86fd</color>
+    <color name="clearWhite">#ffffff</color>
+    <color name="whiteTwo">#f5f5f5</color>
+    <color name="grassyGreen">#3bb300</color>
+    <color name="black">#000000</color>
+    <color name="brightBlue30">#1e0675fe</color>
+    <color name="white">#ffffff</color>
+    <color name="pinkishGrey">#cccccc</color>
+    <color name="grapefruit">#ff4c4c</color>
+    <color name="greyText">#999999</color>
+    <color name="grey">#555555</color>
+    <color name="darkText">#333333</color>
+    <color name="btcBg">#f7931a</color>
+    <color name="ethBg">#497391</color>
+    <color name="tabSelectedColor">#198CFF</color>
+    <color name="tabUselectedColor">#7f7f7f</color>
+</resources>

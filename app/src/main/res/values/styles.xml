@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/white</item>
+        <item name="fontFamily">@font/fira_sans</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+
+    <style name="OnboardingTitle" parent="TextView.Regular.Black.20">
+        <item name="android:layout_marginStart">@dimen/spacing_normal</item>
+        <item name="android:layout_marginEnd">@dimen/spacing_normal</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="OnboardingMessage" parent="TextView.Regular.Grey.16">
+        <item name="android:layout_marginStart">@dimen/spacing_normal</item>
+        <item name="android:layout_marginEnd">@dimen/spacing_normal</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="AccentMainButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_main_button_accent</item>
+        <item name="android:textAppearance">@style/TextView.Regular.White.16</item>
+        <item name="android:padding">@dimen/spacing_half_little</item>
+    </style>
+
+</resources>

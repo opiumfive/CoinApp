@@ -1,0 +1,199 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/greyText"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="@string/total_portfolio_value" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/spacing_normal"
+        android:paddingEnd="@dimen/spacing_normal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/font_extra_huge"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:layout_height="wrap_content"
+            style="@style/TextView.Bold" />
+
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/font_big"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:layout_marginStart="@dimen/spacing_half"
+            android:alpha="0.3"
+            android:fontFamily="sans-serif-medium"
+            android:layout_height="match_parent"
+            style="@style/TextView.Bold" />
+
+        <TextView
+            android:id="@+id/income"
+            android:layout_width="0dp"
+            android:textSize="@dimen/font_big"
+            android:textColor="@color/grassyGreen"
+            android:layout_weight="1"
+            android:textAlignment="gravity"
+            android:gravity="end"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:layout_marginStart="@dimen/spacing_half"
+            android:fontFamily="sans-serif-medium"
+            android:layout_height="match_parent"
+            style="@style/TextView.Bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingStart="@dimen/spacing_normal"
+        android:paddingEnd="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:background="@drawable/btc_dot"
+                android:padding="@dimen/icon_inner_padding"
+                app:srcCompat="@drawable/btc" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_normal"
+                    android:textColor="@color/greyText"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="@string/balance" />
+
+                <TextView
+                    android:id="@+id/btcBalance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_big"
+                    android:textColor="@color/darkText"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    style="@style/TextView.Bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:background="@drawable/eth_dot"
+                android:padding="@dimen/icon_inner_padding"
+                app:srcCompat="@drawable/eth" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_normal"
+                    android:textColor="@color/greyText"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="@string/balance" />
+
+                <TextView
+                    android:id="@+id/ethBalance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_big"
+                    android:textColor="@color/darkText"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    style="@style/TextView.Bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/spacing_half"
+            android:layout_marginEnd="@dimen/spacing_half"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_normal"
+                android:textColor="@color/greyText"
+                android:singleLine="true"
+                android:includeFontPadding="false"
+                android:text="@string/tokens" />
+
+            <TextView
+                android:id="@+id/tokensBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_big"
+                android:textColor="@color/darkText"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                style="@style/TextView.Bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

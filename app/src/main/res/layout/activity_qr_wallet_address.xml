@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.opiumfive.coinapp.ui.feature.newWallet.activity.QrWalletAddressActivity">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/qrWalletBarcodeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:zxing_scanner_layout="@layout/custom_new_wallet_qr_barcode" />
+
+    <LinearLayout
+        android:id="@+id/qrWalletFlash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_normal_double"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/qrWalletFlashIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_flash_off" />
+
+        <TextView
+            android:id="@+id/qrWalletFlashTitle"
+            style="@style/TextView.Regular.White.16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_half"
+            android:text="@string/flash_off"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/qrWalletBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_big"
+        android:padding="@dimen/spacing_normal"
+        android:src="@drawable/back" />
+
+    <TextView
+        style="@style/TextView.Regular.White.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_normal_double"
+        android:gravity="center"
+        android:text="@string/scan_qr_code" />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextView" />
+
+    <style name="TextView.Regular">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextView.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextView.Bold">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Regular.White">
+        <item name="android:textColor">@color/clearWhite</item>
+    </style>
+
+    <style name="TextView.Regular.LightGrey">
+        <item name="android:textColor">@color/greyText</item>
+    </style>
+
+    <style name="TextView.Regular.Grey">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="TextView.Regular.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Light.White">
+        <item name="android:textColor">@color/clearWhite</item>
+    </style>
+
+    <style name="TextView.Bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Bold.Accent">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="TextView.Regular.White.14">
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+
+    <style name="TextView.Regular.White.16">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="TextView.Regular.White.32">
+        <item name="android:textSize">@dimen/font_huge</item>
+    </style>
+
+    <style name="TextView.Regular.LightGrey.14">
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+
+    <style name="TextView.Regular.Grey.16">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="TextView.Regular.Black.16">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="TextView.Regular.Black.18">
+        <item name="android:textSize">@dimen/font_great</item>
+    </style>
+
+    <style name="TextView.Regular.Black.20">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="TextView.Light.White.12">
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="TextView.Bold.Black.16">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="TextView.Bold.Black.20">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="TextView.Bold.Accent.16">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+</resources>

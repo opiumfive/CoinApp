@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:layout_height="wrap_content">
+    
+    <com.opiumfive.coinapp.ui.base.ShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:sl_shadowRadius="12dp"
+        app:sl_shadowColor="@color/shadow_color"
+        app:sl_dx="0dp"
+        app:sl_dy="4dp"
+        app:sl_cornerRadius="@dimen/tabbar_radius">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/tabbar_bg"
+            android:layout_width="@dimen/tabbar_width"
+            android:layout_height="@dimen/tabbar_height">
+
+            <ImageView
+                android:id="@+id/dashboard"
+                android:layout_width="@dimen/tabbar_icon_size"
+                android:layout_height="@dimen/tabbar_icon_size"
+                android:padding="@dimen/tabbar_icon_padding"
+                android:foreground="?selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/dashboard" />
+
+            <ImageView
+                android:id="@+id/transactions"
+                android:layout_width="@dimen/tabbar_icon_size"
+                android:layout_height="@dimen/tabbar_icon_size"
+                android:padding="@dimen/tabbar_icon_padding"
+                android:layout_marginLeft="@dimen/spacing_normal"
+                android:foreground="?selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/transactions" />
+
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="@dimen/tabbar_icon_size"
+                android:layout_height="@dimen/tabbar_icon_size"
+                android:padding="@dimen/tabbar_icon_padding"
+                android:layout_marginLeft="@dimen/spacing_normal"
+                android:foreground="?selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/settings" />
+
+        </LinearLayout>
+
+    </com.opiumfive.coinapp.ui.base.ShadowLayout>
+
+</RelativeLayout>

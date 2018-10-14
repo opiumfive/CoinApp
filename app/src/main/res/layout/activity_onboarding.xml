@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboardingContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.opiumfive.coinapp.ui.feature.onboarding.activity.OnboardingActivity">
+
+    <ImageView
+        android:id="@+id/onboardingArrowUpCentral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/onboardingСoin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_normal_double_minus"
+        android:src="@drawable/arror_up"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/onboardingArrowUpRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/onboardingСoin"
+        android:layout_alignEnd="@+id/onboardingСoin"
+        android:src="@drawable/arror_up"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/onboardingArrowUpLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/onboardingСoin"
+        android:layout_alignBottom="@+id/onboardingСoin"
+        android:layout_marginStart="@dimen/spacing_normal_minus"
+        android:src="@drawable/arror_up"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/onboardingBlackChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/onboardingСoin"
+        android:layout_alignTop="@+id/onboardingСoin"
+        android:layout_marginStart="@dimen/spacing_normal_double_minus"
+        android:layout_marginTop="@dimen/spacing_normal_double"
+        android:src="@drawable/chart_black"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/onboardingNotificationBlue"
+        android:layout_width="@dimen/onboarding_notification_blue_width"
+        android:layout_height="@dimen/onboarding_notification_blue_height"
+        android:layout_alignTop="@id/onboardingСoin"
+        android:layout_marginTop="@dimen/spacing_normal_minus"
+        android:layout_marginEnd="@dimen/spacing_huge_very_minus"
+        android:layout_toStartOf="@id/onboardingСoin"
+        android:src="@drawable/bubble_blue"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingHeliLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/onboardingСoin"
+        android:layout_alignTop="@+id/onboardingСoin"
+        android:layout_marginStart="@dimen/spacing_normal_double_minus"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:src="@drawable/heli"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingTankCentr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/onboardingСoin"
+        android:layout_alignBottom="@+id/onboardingСoin"
+        android:layout_marginStart="@dimen/spacing_normal_minus"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:src="@drawable/tank"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingBox"
+        android:layout_width="@dimen/onboarding_coin_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/onboardingСoin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_huge_minus"
+        android:src="@drawable/box"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingСoin"
+        android:layout_width="@dimen/onboarding_coin_width"
+        android:layout_height="@dimen/onboarding_coin_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_normal_double"
+        android:src="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/onboardingBoxFront"
+        android:layout_width="@dimen/onboarding_coin_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/onboardingСoin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_huge_minus"
+        android:src="@drawable/box_front"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingTankRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/onboardingСoin"
+        android:layout_marginStart="@dimen/spacing_normal_double_minus"
+        android:layout_marginBottom="@dimen/spacing_normal_minus"
+        android:layout_toEndOf="@+id/onboardingСoin"
+        android:src="@drawable/tank"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingTankLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/onboardingСoin"
+        android:layout_alignStart="@+id/onboardingСoin"
+        android:layout_marginBottom="@dimen/spacing_normal_minus"
+        android:src="@drawable/tank"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingHeliCentr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/onboardingСoin"
+        android:layout_alignTop="@+id/onboardingСoin"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_big_very"
+        android:src="@drawable/heli"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingHeliRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/onboardingСoin"
+        android:layout_marginStart="@dimen/spacing_huge_minus"
+        android:layout_marginTop="@dimen/spacing_normal_double"
+        android:layout_toEndOf="@id/onboardingСoin"
+        android:src="@drawable/heli"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingNotificationRed"
+        android:layout_width="@dimen/onboarding_notification_red_height"
+        android:layout_height="@dimen/onboarding_notification_red_height"
+        android:layout_alignTop="@id/onboardingСoin"
+        android:layout_alignEnd="@id/onboardingСoin"
+        android:layout_marginTop="@dimen/spacing_big_very"
+        android:layout_marginEnd="@dimen/spacing_normal_minus"
+        android:src="@drawable/bubble_red"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingNotificationBlack"
+        android:layout_width="@dimen/onboarding_notification_black_width"
+        android:layout_height="@dimen/onboarding_notification_black_height"
+        android:layout_below="@id/onboardingСoin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_normal_double_minus"
+        android:src="@drawable/bubble_black"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onboardingArrowDownLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/onboardingСoin"
+        android:layout_alignBottom="@id/onboardingСoin"
+        android:layout_marginStart="@dimen/spacing_huge"
+        android:layout_marginBottom="@dimen/spacing_huge_double"
+        android:src="@drawable/arrow_down"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/onboardingArrowDownRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/onboardingСoin"
+        android:layout_alignBottom="@id/onboardingСoin"
+        android:layout_marginBottom="@dimen/spacing_huge"
+        android:src="@drawable/arrow_down"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/onboardingBlueChart"
+        android:layout_width="@dimen/onboarding_chart_blue_height"
+        android:layout_height="@dimen/onboarding_chart_blue_height"
+        android:layout_below="@id/onboardingСoin"
+        android:layout_alignEnd="@id/onboardingСoin"
+        android:layout_marginTop="@dimen/onboarding_chart_blue_margin_top"
+        android:layout_marginEnd="@dimen/onboarding_chart_blue_margin_end"
+        android:src="@drawable/chart_blue_1"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/onboardingBlueChartAddWallet"
+        android:layout_width="@dimen/onboarding_chart_blue_height"
+        android:layout_height="@dimen/onboarding_chart_blue_height"
+        android:layout_below="@id/onboardingСoin"
+        android:layout_alignEnd="@id/onboardingСoin"
+        android:layout_marginTop="@dimen/onboarding_chart_blue_second_margin_top"
+        android:layout_marginEnd="@dimen/onboarding_chart_blue_margin_end"
+        android:src="@drawable/chart_blue_2"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/onboardingBottomContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/spacing_normal">
+
+        <com.opiumfive.coinapp.ui.base.view.MainButton
+            android:id="@+id/onBoardingAddWallet"
+            style="@style/AccentMainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_wallet"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/onboardingNext"
+            style="@style/TextView.Bold.Accent.16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/bg_round_button"
+            android:paddingStart="@dimen/spacing_big"
+            android:paddingTop="@dimen/spacing_half"
+            android:paddingEnd="@dimen/spacing_big"
+            android:paddingBottom="@dimen/spacing_half"
+            android:text="@string/next" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/onboardingBottomContainer"
+        android:layout_below="@id/onboardingСoin"
+        android:layout_marginTop="@dimen/spacing_big_very">
+
+        <TextView
+            android:id="@+id/onboardingWellcomeTitle"
+            style="@style/OnboardingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_wellcome_title"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/onboardingWellcomeMessage"
+            style="@style/OnboardingMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onboardingWellcomeTitle"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:text="@string/onboarding_wellcome_message"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/onboardingNotificationTitle"
+            style="@style/OnboardingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_notification_title"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/onboardingNotificationMessage"
+            style="@style/OnboardingMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onboardingNotificationTitle"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:text="@string/onboarding_notification_message"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/onboardingSafelyTitle"
+            style="@style/OnboardingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_safely_title"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/onboardingSafelyMessage"
+            style="@style/OnboardingMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onboardingSafelyTitle"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:text="@string/onboarding_safely_message"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/onboardingAddWalletTitle"
+            style="@style/OnboardingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_add_wallet_title"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/onboardingAddWalletMessage"
+            style="@style/OnboardingMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onboardingAddWalletTitle"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:text="@string/onboarding_add_wallet_message"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/onboardingAddWalletDescription"
+            style="@style/OnboardingMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onboardingAddWalletMessage"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/onboardingAddWalletSupports"
+                style="@style/TextView.Regular.LightGrey.14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/supports_only"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/onboardingAddWalletEthIcon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_eth_green"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/onboardingAddWalletEthAnd"
+                style="@style/TextView.Regular.LightGrey.14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eth_and"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/onboardingAddWalletBtcIcon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="@dimen/spacing_half_little"
+                android:src="@drawable/ic_btc_orange"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/onboardingAddWalletBtc"
+                style="@style/TextView.Regular.LightGrey.14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_half_little"
+                android:text="@string/btc"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextView.Regular.Black.18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:gravity="center_horizontal"
+        android:text="@string/authorization" />
+
+    <TextView
+        style="@style/TextView.Regular.Grey.16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:gravity="center_horizontal"
+        android:text="@string/login_info" />
+
+    <LinearLayout
+        android:id="@+id/loginIcos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_big"
+        android:background="@drawable/bg_icos_id"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing_small">
+
+        <TextView
+            style="@style/TextView.Regular.White.16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icos"
+            android:textAllCaps="true" />
+
+        <TextView
+            style="@style/TextView.Regular.White.16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_little"
+            android:text="@string/id"
+            android:textAllCaps="true"
+            android:textColor="#047255" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_big"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_big"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="#19000000" />
+
+        <TextView
+            style="@style/TextView.Regular.LightGrey.14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/spacing_normal"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:text="@string/or" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="#19000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/loginFacebook"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/spacing_little"
+            android:layout_weight="1"
+            android:background="@drawable/bg_social"
+            android:gravity="center"
+            android:padding="@dimen/spacing_small"
+            app:srcCompat="@drawable/ic_fb" />
+
+        <ImageView
+            android:id="@+id/loginGoogle"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/spacing_little"
+            android:layout_weight="1"
+            android:background="@drawable/bg_social"
+            android:gravity="center"
+            android:padding="@dimen/spacing_small"
+            app:srcCompat="@drawable/ic_google" />
+
+        <ImageView
+            android:id="@+id/loginEmail"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/spacing_little"
+            android:layout_weight="1"
+            android:background="@drawable/bg_social"
+            android:gravity="center"
+            android:padding="@dimen/spacing_small"
+            app:srcCompat="@drawable/ic_mail" />
+
+    </LinearLayout>
+</LinearLayout>
